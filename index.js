@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["👑 I am RTX","Spotify","Youtube","SUBSCRIBE❤️","THANKS 🌇"];
+const statusMessages = ["👑Blockchain Miners","Powered by Kaizaki"];
 
 
 let currentIndex = 0;
@@ -44,7 +44,7 @@ const channelId = '';
 
 async function login() {
   try {
-    await client.login(process.env.TOKEN);
+    await client.login('MTE5MDMwNTI5NjU3MzI3NjE3MA.G2f9Zb.JyUudrEDbrj2pBzLiW45rMvxw5IAbrc_9ZUqdo');
     console.log(`\x1b[36m%s\x1b[0m`, `|    🐇 Logged in as ${client.user.tag}`);
   } catch (error) {
     console.error('Failed to log in:', error);
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 5000);
+  }, 100000);
 });
 
 login();
