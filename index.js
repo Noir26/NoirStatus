@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["👑Blockchain Miners","BCMH Bot", "BCMH Bot"];
+const statusMessages = ["👑Primordials PH","BCMH Bot", "BCMH Bot"];
 
 
 let currentIndex = 0;
