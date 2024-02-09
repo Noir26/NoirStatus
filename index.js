@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["👑Blockchain Miners","Powered by Kaizaki"];
+const statusMessages = ["👑Blockchain Miners","BCMH Bot", "BCMH Bot"];
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 100000);
+  }, 1000);
 });
 
 login();
